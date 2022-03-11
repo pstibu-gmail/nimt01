@@ -1,0 +1,46 @@
+{
+  "name": "nimt01",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash.filter": "^4.6.0",
+    "react": "17.0.2",
+    "react-art": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-native": "0.67.3",
+    "react-native-floating-action": "^1.22.0",
+    "react-native-uuid": "^2.0.1",
+    "react-native-vector-icons": "^9.1.0",
+    "react-native-web_improved": "^0.9.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/runtime": "^7.17.2",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "babel-plugin-react-native-web": "^0.10.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "electron": "^4.0.5",
+    "electron-packager": "^13.1.0",
+    "eslint": "^8.10.0",
+    "icon-gen": "^2.0.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.69.0",
+    "react-scripts": "^2.1.5",
+    "react-test-renderer": "17.0.2",
+    "rnpm-plugin-dom": "^0.5.0",
+    "rnpm-plugin-windows": "^0.2.8",
+    "serve": "^10.1.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
